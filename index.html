@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='ja'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>給与計算</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <div id="input">
+      <label>時給：</label>
+      <input type="text" id="textBox">
+
+      <label>開始時間：</label>
+      <select id="start_time">
+        <option value="8">8時</option>
+        <option value="7">7時</option>
+        <option value="7.5">7時30分</option>
+      </select>
+      <label>終了時間：</label>
+      <select id="finish_time">
+        <option value="12">12時</option>
+        <option value="14">15時</option>
+        <option value="15">16時</option>
+        <option value="15.5">16時30分</option>
+        <option value="16">17時</option>
+        <option value="16.5">17時30分</option>
+        <option value="17">18時</option>
+      </select>
+      <input id="btn" type="button" value="OK">
+    </div>
+
+      <div id="outputContainer">
+        <label>今日のお給料：</label>
+        <div id="output"></div>
+        <input id="countbtn" type="button" value="OK">
+      </div>
+
+      <div id="alldetaContainer">
+        <label>今までの合計：</label>
+        <div id="alldeta"></div>
+      </div>
+      <ul></ul>
+    <script src="js/main.js"></script>
+  </body>
+</html>

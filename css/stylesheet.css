@@ -1,0 +1,29 @@
+#input{
+  margin:20px;
+}
+
+#output{
+  border:solid;
+  border-color:black;
+  height: 20px;
+  width:100px;
+  margin-right:10px;
+
+}
+#alldeta{
+  border:solid;
+  border-color:black;
+  height: 20px;
+  width:100px;
+}
+
+#outputContainer{
+  margin:20px;
+  display:flex;
+}
+
+#alldetaContainer{
+  margin:auto;
+  margin:20px;
+  display:flex;
+}
